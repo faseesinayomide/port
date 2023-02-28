@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sign-in</title>
+
+    <link rel="stylesheet" href="css/sign-in.css" />
+  </head>
+  <body>
+    <header>
+    <nav>
+      <h1 class="logo">Bee-Tab</h1>
+
+      <ul>
+        <li class="kid"><a href="" class="active">Services</a></li>
+        <li class="kid">
+          <a href="#" class="active">contact</a>
+        </li>
+  
+        
+        <li class="kid">
+          <a href="/sign-up.html" class="pers">Create an account</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+    
+    <div class="container bg-red-500">
+      <div class="container-flex">
+        <div class="flex-left">
+          <div class="flex-img">
+            <img src="/images/IMG_1744.PNG" alt="">
+          </div>
+        </div>
+        <div class="flex-right">
+          <h1>Welcome to Bee-Tab store</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, labor</p>
+          <div class="form">
+            <form action="/index.html" method="post" autocomplete="on">
+              <div class="inputBox">
+                <input type="text" required="required" />
+                <span>Username</span>
+              </div>
+              <div class="inputBox">
+                <input type="password" required="required" />
+                <span>Password</span>
+              </div>
+              <div class="remember">
+                <input type="checkbox" name="remember" id="remember" value="IsRememberMe">
+                <label for="rememberMe" class="remember">Remember me</label>
+              </div>
+
+              <div>
+                <button
+                type="submit"
+                name="submit"
+                value="Login"
+                onclick="IsReememberMe() "
+                class="button-65"
+                role="button">
+                Sign in
+              </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div class="footer-container">
+      <div class="footer">
+        <div class="footer-heading-1">
+          <h2>About Us</h2>
+          <a href="#">Blog</a>
+          <a href="#">Demo</a>
+          <a href="#">Customers</a>
+          <a href="#">Investors</a>
+          <a href="#">Terms of services</a>
+        </div>
+
+        <div class="footer-heading-1">
+          <h2>Contact Us</h2>
+          <a href="#">Jobs</a>
+          <a href="#">Support</a>
+          <a href="#">Contact</a>
+          <a href="#">Spornsorship</a>
+        </div>
+
+        <div class="footer-heading-1">
+          <h2>Social Media</h2>
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+          <a href="#">Twitter</a>
+          <a href="#">YouTube</a>
+        </div>
+
+        <div class="footer-email">
+          <div class="footer-email-form-h2">
+            <h2>Join our newsletter</h2>
+            <input type="text" id="email" placeholder="your email address" />
+            <input type="submit" id="submit" value="sign-up" />
+          </div>
+        </div>
+
+        <div class="footer-copy-write">
+          <p>Copyright &copy; Bee-Tab Corporation. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+  
+</html>
